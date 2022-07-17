@@ -26,6 +26,8 @@ const App = () => {
       {clicks.left}
       <button onClick={handleLeftClick}>left</button>
       <button onClick={handleRightClick}>right</button>
+      <button onClick={handleLeftClick}>izquierda</button>
+      <button onClick={handleRightClick}>derechas</button>
       {clicks.right}
     </div>
   )
